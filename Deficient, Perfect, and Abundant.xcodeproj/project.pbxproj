@@ -20,18 +20,44 @@
 
 /* Begin PBXFileReference section */
 		E183FBEA2CA4631E006FB763 /* Deficient, Perfect, and Abundant */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Deficient, Perfect, and Abundant"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E183FBF82CA46E5D006FB763 /* Deficient, Perfect, and AbundantTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Deficient, Perfect, and AbundantTest.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E136AA182CAB7A4400BF73A2 /* Exceptions for "Deficient, Perfect, and Abundant" folder in "Deficient, Perfect, and AbundantTest" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				main.swift,
+			);
+			target = E183FBF72CA46E5D006FB763 /* Deficient, Perfect, and AbundantTest */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		E183FBEC2CA4631E006FB763 /* Deficient, Perfect, and Abundant */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E136AA182CAB7A4400BF73A2 /* Exceptions for "Deficient, Perfect, and Abundant" folder in "Deficient, Perfect, and AbundantTest" target */,
+			);
 			path = "Deficient, Perfect, and Abundant";
+			sourceTree = "<group>";
+		};
+		E183FBF92CA46E5D006FB763 /* Deficient, Perfect, and AbundantTest */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Deficient, Perfect, and AbundantTest";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E183FBE72CA4631E006FB763 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E183FBF52CA46E5D006FB763 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				E183FBEC2CA4631E006FB763 /* Deficient, Perfect, and Abundant */,
+				E183FBF92CA46E5D006FB763 /* Deficient, Perfect, and AbundantTest */,
 				E183FBEB2CA4631E006FB763 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				E183FBEA2CA4631E006FB763 /* Deficient, Perfect, and Abundant */,
+				E183FBF82CA46E5D006FB763 /* Deficient, Perfect, and AbundantTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,6 +110,28 @@
 			productReference = E183FBEA2CA4631E006FB763 /* Deficient, Perfect, and Abundant */;
 			productType = "com.apple.product-type.tool";
 		};
+		E183FBF72CA46E5D006FB763 /* Deficient, Perfect, and AbundantTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E183FBFC2CA46E5D006FB763 /* Build configuration list for PBXNativeTarget "Deficient, Perfect, and AbundantTest" */;
+			buildPhases = (
+				E183FBF42CA46E5D006FB763 /* Sources */,
+				E183FBF52CA46E5D006FB763 /* Frameworks */,
+				E183FBF62CA46E5D006FB763 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E183FBF92CA46E5D006FB763 /* Deficient, Perfect, and AbundantTest */,
+			);
+			name = "Deficient, Perfect, and AbundantTest";
+			packageProductDependencies = (
+			);
+			productName = "Deficient, Perfect, and AbundantTest";
+			productReference = E183FBF82CA46E5D006FB763 /* Deficient, Perfect, and AbundantTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -93,6 +143,9 @@
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					E183FBE92CA4631E006FB763 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					E183FBF72CA46E5D006FB763 = {
 						CreatedOnToolsVersion = 16.0;
 					};
 				};
@@ -112,12 +165,30 @@
 			projectRoot = "";
 			targets = (
 				E183FBE92CA4631E006FB763 /* Deficient, Perfect, and Abundant */,
+				E183FBF72CA46E5D006FB763 /* Deficient, Perfect, and AbundantTest */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		E183FBF62CA46E5D006FB763 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E183FBE62CA4631E006FB763 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E183FBF42CA46E5D006FB763 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -267,6 +338,36 @@
 			};
 			name = Release;
 		};
+		E183FBFD2CA46E5D006FB763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HAM63P8GG4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.zhangchase.Deficient--Perfect--and-AbundantTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E183FBFE2CA46E5D006FB763 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HAM63P8GG4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.zhangchase.Deficient--Perfect--and-AbundantTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -284,6 +385,15 @@
 			buildConfigurations = (
 				E183FBF22CA4631E006FB763 /* Debug */,
 				E183FBF32CA4631E006FB763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E183FBFC2CA46E5D006FB763 /* Build configuration list for PBXNativeTarget "Deficient, Perfect, and AbundantTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E183FBFD2CA46E5D006FB763 /* Debug */,
+				E183FBFE2CA46E5D006FB763 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

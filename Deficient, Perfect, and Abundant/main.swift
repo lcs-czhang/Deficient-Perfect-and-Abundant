@@ -47,7 +47,6 @@ func getInput(withPrompt prompt: String, minimum: Int?, maximum: Int?) -> Int {
             
             
         }
-        
         // If we've made it past all the checks, the input is an integer in the desired range of values, so, return it
         return givenInteger
         
